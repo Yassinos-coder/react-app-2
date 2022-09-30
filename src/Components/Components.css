@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.Header {
+    width: 100%;
+    height: 70px;
+    background: rgb(101,101,103);
+    background: linear-gradient(90deg, rgba(101,101,103,1) 0%, rgba(255,255,255,1) 83%);
+}
+
+.Header > .Header-title > h1 {
+    padding: 9px 25px;
+}
+
+.date-time {
+    margin-top: -50px;
+    float: right;
+    margin-right: 23px;
+}
+
+.date-time p {
+    font-size: 17px;
+}
+
+/* ***************************** */
+
+.Main {
+    background-color: rgba(128, 128, 128, 0.397);
+    margin-top: 5%;
+    margin-left: 24%;
+    width: 50%;
+    height: 500px;
+    box-shadow: 7px 8px 12px 2px rgba(138,138,138,0.4);
+    -webkit-box-shadow: 7px 8px 12px 2px rgba(138,138,138,0.4);
+    -moz-box-shadow: 7px 8px 12px 2px rgba(138,138,138,0.4);
+}
+
+.Main-Box-Header {
+    width: 100%;
+    height: 110px;
+    background-color: black;
+}
+/* CSS FOR ProfilePhoto.js ******** */
+.ProfileLogo {
+    padding-left: 12px;
+}
+.ProfileLogo img{
+    width: 110px;
+    height: 110px;
+}
+/* END  of ProfilePhoto.js CSS */ 
