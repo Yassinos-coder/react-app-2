@@ -4,6 +4,8 @@ import Address from './Address'
 import FullName from './FullName'
 import ProfilePhoto from './ProfilePhoto'
 import UserPosition from './UserPosition'
+import UserSkill from './UserSkill'
+import UserTasks from './UserTasks'
 // React is the Best So far !!!
 
 const Dashboard = () => {
@@ -39,6 +41,13 @@ const Dashboard = () => {
             <UserPosition />
           </div>
         </div>
+        <div className="UserSkill-Dash">
+          <UserSkill />
+        </div>
+        <div className="UserTasks-Dash">
+          <UserTasks />
+        </div>
+        <h3>In you we trust & Believe. <br /> Make us proud!</h3>
       </div>
     </div>
   )

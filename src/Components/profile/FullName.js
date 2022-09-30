@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css' 
 import '../Components.css'
 
+
 const FullName = () => {
   return (
     <>

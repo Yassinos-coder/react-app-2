@@ -39,7 +39,8 @@ body {
 .Main-Box-Header {
     width: 100%;
     height: 110px;
-    background-color: black;
+    background: rgb(101,101,103);
+    background: linear-gradient(90deg, rgba(101,101,103,1) 67%, rgba(255,255,255,1) 100%);
 }
 /* CSS FOR ProfilePhoto.js ******** */
 .ProfileLogo {
@@ -49,7 +50,6 @@ body {
 .ProfileLogo img{
     width: 110px;
     height: 110px;
-    border: 1px solid white;
 }
 /* END  of ProfilePhoto.js CSS */ 
 
@@ -86,3 +86,170 @@ body {
     color: #1DA1F2;
 }
 /* END  of UserPosition.js CSS */ 
+
+/* CSS UserSkill  */
+.Skill {
+    margin-left: 3%;
+    width: 33%;
+    height: 235px;
+    margin-top: 4%;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.Skill > h3 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 43px;
+}
+
+.Skill > p {
+    padding-left: 5px;
+    font-size: 18px;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.DevOps , .FullStackJs ,.CommunicationSkills,.TeamLeading {
+    margin-left: 2px;
+}
+.DevOpsSkill, .FullStackJs_Skill,.CommunicationSkills_Skill,.TeamLeading_Skill {
+    border-radius: 8px;
+}
+
+.DevOps {
+    width: 80%;
+    height: 13px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: -4%;
+}
+
+.DevOps .DevOpsSkill {
+    background-color: #1DA1F2;
+    width: 80%;
+    font-size: 13px;
+    font-weight: 900;
+    color: white;
+    height: 13px;
+}
+
+.SkillLevel {
+    position: absolute;
+    margin-top: -3px;
+    right: 64.2%;
+}
+
+/* ****************** */
+.FullStackJs {
+    width: 80%;
+    height: 13px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: -4%;
+}
+
+.FullStackJs .FullStackJs_Skill {
+    background-color: #F0DB4F;
+    width: 75%;
+    font-size: 13px;
+    font-weight: 900;
+    color: #323330;
+    height: 13px;
+}
+
+.FullStackJs_SkillLevel {
+    position: absolute;
+    margin-top: -3px;
+    right: 64.8%;
+}
+
+/* ******************* */
+.TeamLeading {
+    width: 80%;
+    height: 13px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: -4%;
+}
+
+.TeamLeading .TeamLeading_Skill {
+    background-color: orangered;
+    width: 95%;
+    font-size: 13px;
+    font-weight: 900;    
+    color: white;
+    height: 13px;
+}
+
+.TeamLeading_SkillLevel {
+    position: absolute;
+    margin-top: -3px;
+    right: 62.2%;
+}
+
+/* ******************* */
+.CommunicationSkills {
+    width: 80%;
+    height: 13px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: -4%;
+}
+
+.CommunicationSkills .CommunicationSkills_Skill {
+    background-color: lightblue;
+    width: 60%;
+    font-size: 13px;
+    font-weight: 900;
+    color: white;
+    height: 13px;
+}
+
+.CommunicationSkills_SkillLevel {
+    position: absolute;
+    margin-top: -3px;
+    right: 66.8%;
+}
+
+/* END CSS UserSkill */
+/* START CSS UserTasks.js */
+.UserTasks {
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 46%;
+    height: 235px;
+    margin-left: 52%;
+    margin-top: -24.5%;
+}
+.UserTasks > h3 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 43px;
+}
+.Font-icons-Tasks {
+    margin-right: 2px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.faCheck:hover {
+    color: green;
+}
+
+.faPaperClick:hover {
+    color: blue;
+}
+
+/* END CSS UserTasks.js */
+
+.Main > h3 {
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 1%;
+    padding: 20px;
+}
