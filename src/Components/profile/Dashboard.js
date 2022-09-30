@@ -3,6 +3,7 @@ import '../Components.css'
 import Address from './Address'
 import FullName from './FullName'
 import ProfilePhoto from './ProfilePhoto'
+import UserPosition from './UserPosition'
 // React is the Best So far !!!
 
 const Dashboard = () => {
@@ -26,13 +27,16 @@ const Dashboard = () => {
           <div className="ProfileLogo-Dash">
             <ProfilePhoto />
           </div>
-          <div className="Data-User">
+          <div className="User-Data">
             <section>
               <FullName />
             </section>
             <section>
               <Address />
             </section>
+          </div>
+          <div className="User-Info">
+            <UserPosition />
           </div>
         </div>
       </div>

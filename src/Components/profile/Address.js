@@ -6,7 +6,7 @@ const Address = () => {
   return (
     <>
       <div className="Address">
-        <p>2 Rueh Ahmed Majjati Maarif</p>
+        <p>Address : 2 Rue Ahmed Majjati Maarif Casablanca</p>
       </div>
     </>
   )
